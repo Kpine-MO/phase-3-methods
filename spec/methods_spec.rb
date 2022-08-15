@@ -11,7 +11,11 @@ end
 
 describe '#greet' do
 
-  it 'outputs a string "Hello, Naureen!" when called with "Naureen"' do
+  it 'outputs a string "Hello, Naureen!" when called with "def greet_programmer
+  puts "Hello, programmer!"
+end
+
+greet_programmer"' do
     expect { greet("Naureen") }.to output(a_string_including("Hello, Naureen!")).to_stdout
   end
 
